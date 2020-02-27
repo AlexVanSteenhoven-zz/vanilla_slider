@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.slider {
+    width: 100vw;
+    height: 20vw;
+    background-color: gray;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 48px;
+}
+
+a:hover { 
+    color: black; 
+    transition: 0.3s;
+}
+
+.arrow-left {
+    position: absolute;
+    float: left;
+    top: 8vw;
+    left: 1rem;
+}
+
+.arrow-right {
+    position: absolute;
+    float: right;
+    top: 8vw;
+    right: 1rem;
+}
+
+.slide {
+    flex: 1 1 0;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    width: 100vw;
+}
